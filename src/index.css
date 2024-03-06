@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  @apply w-screen  h-screen;
+}
+
+* {
+  @apply box-border m-0 p-0 transition-colors duration-300;
+}
